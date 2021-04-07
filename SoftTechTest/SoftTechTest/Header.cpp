@@ -19,3 +19,8 @@ int max(int a[], int n)
     }
     return m;
 }
+
+float average(int a[], int n)
+{
+    return suma(a,n)/(float)n;
+}
